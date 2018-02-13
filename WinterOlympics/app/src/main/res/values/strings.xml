@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">WinterOlympics</string>
+    <string name="app_name">WINTER OLYMPICS</string>
+    <string name="welcome_message">Welcome to Winter Olympics. Keep up to date with the latest sport events in the olympics.</string>
+    <string name ="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="explore">EXPLORE</string>
+    <string name="pyeongchan2018">PyeongChang 2018</string>
 </resources>
