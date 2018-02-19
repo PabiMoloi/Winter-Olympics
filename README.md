@@ -5,5 +5,5 @@ Winter-Olympics is an android application created to complete the Winter Olympic
 https://www.uplabs.com/labs/14/experiments/132
 
 # Screenshots
-![Screenshot](https://github.com/PabiMoloi/Location/blob/master/app/src/main/welcomeScreen.png)
+![Screenshot](https://github.com/PabiMoloi/Winter-Olympics/blob/master/app/src/main/res/drawable/welcomeScreen.png)
 
