@@ -1,8 +1,24 @@
 <resources>
     <string name="app_name">WINTER OLYMPICS</string>
     <string name="welcome_message">Welcome to Winter Olympics. Keep up to date with the latest sport events in the olympics.</string>
-    <string name ="sign_up">SIGN UP</string>
+    <string name="sign_up">SIGN UP</string>
     <string name="sign_in">SIGN IN</string>
     <string name="explore">EXPLORE</string>
     <string name="pyeongchan2018">PyeongChang 2018</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_olympic_schedule">Olympic Schedule</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="schedule">Olympic Schedule</string>
+    <string name="meadal_leaderboard">Medal Leaderboard</string>
+    <string name="sport_selection">Sport Selection</string>
+    <string name="athlete_profile">Athlete Profiles</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="stream_video">Stream</string>
+    <string name="sport_gallery">Gallery</string>
+    <string name="version">version: </string>
+
 </resources>

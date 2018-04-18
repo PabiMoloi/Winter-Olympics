@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_date_range"
+            android:title="@string/schedule" />
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_card_giftcard"
+            android:title="@string/meadal_leaderboard" />
+        <item
+            android:id="@+id/nav_sport_selection"
+            android:icon="@drawable/ic_directions"
+            android:title="@string/sport_selection" />
+        <item
+            android:id="@+id/nav_athlete_profile"
+            android:icon="@drawable/ic_person"
+            android:title="@string/athlete_profile" />
+    </group>
+
+    <item android:title="@string/watch_now">
+        <menu>
+            <item
+                android:id="@+id/nav_stream"
+                android:icon="@drawable/ic_ondemand_video"
+                android:title="@string/stream_video" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_gallery"
+                android:title="@string/sport_gallery" />
+        </menu>
+    </item>
+
+</menu>
