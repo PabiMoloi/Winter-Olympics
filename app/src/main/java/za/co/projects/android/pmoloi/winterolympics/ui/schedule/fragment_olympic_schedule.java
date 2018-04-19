@@ -1,4 +1,4 @@
-package za.co.projects.android.pmoloi.winterolympics;
+package za.co.projects.android.pmoloi.winterolympics.ui.schedule;
 
 import android.content.Context;
 import android.net.Uri;
@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import za.co.projects.android.pmoloi.winterolympics.R;
 
 
 /**

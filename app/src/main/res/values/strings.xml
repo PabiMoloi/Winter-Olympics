@@ -20,5 +20,6 @@
     <string name="stream_video">Stream</string>
     <string name="sport_gallery">Gallery</string>
     <string name="version">version: </string>
+    <string name="filter">Filter: </string>
 
 </resources>

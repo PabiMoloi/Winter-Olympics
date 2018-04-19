@@ -1,14 +1,13 @@
-package za.co.projects.android.pmoloi.winterolympics.ui.welcomescreen;
+package za.co.projects.android.pmoloi.winterolympics.ui.welcome;
 
 import android.content.Intent;
-import android.support.constraint.ConstraintLayout;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 import za.co.projects.android.pmoloi.winterolympics.R;
+import za.co.projects.android.pmoloi.winterolympics.ui.home.HomeActivity;
 
 public class WelcomeScreenActivity extends AppCompatActivity {
 

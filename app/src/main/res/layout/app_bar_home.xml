@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="za.co.projects.android.pmoloi.winterolympics.ui.welcomescreen.HomeActivity">
+    tools:context="za.co.projects.android.pmoloi.winterolympics.ui.home.HomeActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"

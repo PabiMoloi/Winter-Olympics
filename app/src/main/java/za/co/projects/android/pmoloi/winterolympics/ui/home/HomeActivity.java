@@ -1,12 +1,7 @@
-package za.co.projects.android.pmoloi.winterolympics.ui.welcomescreen;
+package za.co.projects.android.pmoloi.winterolympics.ui.home;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -17,7 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import za.co.projects.android.pmoloi.winterolympics.R;
-import za.co.projects.android.pmoloi.winterolympics.fragment_olympic_schedule;
+import za.co.projects.android.pmoloi.winterolympics.ui.schedule.fragment_olympic_schedule;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, fragment_olympic_schedule.OnFragmentInteractionListener {
