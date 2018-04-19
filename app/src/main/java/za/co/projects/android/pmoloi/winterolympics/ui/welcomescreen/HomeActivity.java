@@ -22,11 +22,13 @@ import za.co.projects.android.pmoloi.winterolympics.fragment_olympic_schedule;
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, fragment_olympic_schedule.OnFragmentInteractionListener {
 
+        private Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -40,6 +42,7 @@ public class HomeActivity extends AppCompatActivity
         navigationView.getMenu().getItem(0).setChecked(true);
         fragment_olympic_schedule olympicSchedule = new fragment_olympic_schedule();
         getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, olympicSchedule).commit();
+        toolbar.setTitle("Olympic Schedule");
     }
 
     @Override
@@ -82,6 +85,7 @@ public class HomeActivity extends AppCompatActivity
         if (id == R.id.nav_schedule) {
             fragment_olympic_schedule olympicSchedule = new fragment_olympic_schedule();
             getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, olympicSchedule).commit();
+            toolbar.setTitle("Olympic Schedule");
         } else if (id == R.id.nav_leaderboard) {
 
         } else if (id == R.id.nav_sport_selection) {
