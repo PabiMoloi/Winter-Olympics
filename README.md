@@ -1,5 +1,5 @@
 # Winter-Olympics
-Winter-Olympics is an android application created to complete the Winter Olympics App Experiment lab. 
+Winter-Olympics is an android application created to complete the Winter Olympics App Experiment lab (https://www.uplabs.com/case_study_topics/winter_olympics). 
 * Step 1: Creating a welcome screen. 
 * Step 2: Create an olympic schedule screen
 
