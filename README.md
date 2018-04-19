@@ -8,4 +8,4 @@ https://www.uplabs.com/labs/14/experiments/132
 ![Screenshot](https://github.com/PabiMoloi/Winter-Olympics/blob/master/app/src/main/res/drawable/welcomeScreen.png)
 
 # Credits
-* Thank you to Alexey Bondarenko for the olympic icon (Sochi Olympics by Alexey Bondarenko from the Noun Project)
+* A big thanks to Agni from the Noun Project for the Olympic Flame logo (https://thenounproject.com/search/?q=olympic&i=1093994)
