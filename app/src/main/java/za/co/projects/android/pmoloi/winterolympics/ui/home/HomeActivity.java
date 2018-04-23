@@ -10,7 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
+import za.co.projects.android.pmoloi.winterolympics.BuildConfig;
 import za.co.projects.android.pmoloi.winterolympics.R;
 import za.co.projects.android.pmoloi.winterolympics.ui.schedule.fragment_olympic_schedule;
 
@@ -18,6 +20,7 @@ public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, fragment_olympic_schedule.OnFragmentInteractionListener {
 
         private Toolbar toolbar;
+        private TextView appVersionCode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,8 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        appVersionCode = findViewById(R.id.footer_version_label);
+        appVersionCode.setText(BuildConfig.VERSION_NAME);
         navigationView.getMenu().getItem(0).setChecked(true);
         fragment_olympic_schedule olympicSchedule = new fragment_olympic_schedule();
         getSupportFragmentManager().beginTransaction().add(R.id.fragment_container, olympicSchedule).commit();
