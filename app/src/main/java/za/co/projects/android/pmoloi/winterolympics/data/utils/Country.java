@@ -1,0 +1,32 @@
+package za.co.projects.android.pmoloi.winterolympics.data.utils;
+
+public enum Country {
+    USA,
+    SOUTHAFRICA,
+    CHINA,
+    AUSTRALIA,
+    RUSSIA,
+    ICELAND,
+    INDONESIA,
+    BRAZIL,
+    JAMAICA,
+    SAMAO,
+    CANADA,
+    SOUTHSUDAN,
+    SINGAPORE,
+    SWEDEN,
+    DENMARK,
+    MONACO,
+    MOROCCO,
+    UK,
+    NORWAY,
+    GERMANY,
+    PORTUGAL,
+    NIGERIA,
+    PHILIPPINES,
+    NETHERLANDS,
+    TANZANIA,
+    SPAIN,
+    KENYA,
+    SEYCHELLES;
+}

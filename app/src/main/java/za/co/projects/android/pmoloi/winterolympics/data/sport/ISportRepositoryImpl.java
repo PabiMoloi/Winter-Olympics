@@ -2,9 +2,7 @@ package za.co.projects.android.pmoloi.winterolympics.data.sport;
 
 import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
-
 import java.util.List;
-
 import za.co.projects.android.pmoloi.winterolympics.data.model.Sport;
 
 public class ISportRepositoryImpl implements ISportRepository {
