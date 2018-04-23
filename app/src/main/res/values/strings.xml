@@ -13,13 +13,12 @@
 
     <string name="action_settings">Settings</string>
     <string name="schedule">Olympic Schedule</string>
-    <string name="meadal_leaderboard">Medal Leaderboard</string>
+    <string name="medal_leaderboard">Medal Leaderboard</string>
     <string name="sport_selection">Sport Selection</string>
     <string name="athlete_profile">Athlete Profiles</string>
     <string name="watch_now">Watch Now</string>
     <string name="stream_video">Stream</string>
     <string name="sport_gallery">Gallery</string>
-    <string name="version">version: </string>
-    <string name="filter">Filter: </string>
+    <string name="version">Version: </string>
 
 </resources>
