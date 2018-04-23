@@ -20,6 +20,11 @@ allprojects {
         google()
         jcenter()
     }
+    ext {
+        roomVersion = '1.0.0'
+        archLifecycleVersion = '1.1.1'
+        espressoVersion = '2.2.2'
+    }
 }
 
 task clean(type: Delete) {
